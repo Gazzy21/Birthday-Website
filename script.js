@@ -108,7 +108,7 @@ window.onclick = function(event) {
   }
 }
 
-// MODAL 4
+// MODAL 5
 
 // Get the modal
 var modalFive = document.getElementById("myModalFive");
@@ -133,5 +133,33 @@ span.onclick = function() {
 window.onclick = function(event) {
   if (event.target == modalFive) {
     modalFive.style.display = "none";
+  }
+}
+
+// MODSix
+
+// Get the modal
+var modalSix = document.getElementById("myModalSix");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtnSix");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("closeSix")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+  modalSix.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modalSix.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modalSix) {
+    modalSix.style.display = "none";
   }
 }
