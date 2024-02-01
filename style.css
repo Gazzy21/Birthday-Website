@@ -57,6 +57,25 @@ hr {
   border: 1.5px solid rgb(255, 255, 255);
 }
 
+.divstyle {
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.33, rgb(255, 255, 255)),
+    color-stop(0.67, rgb(0, 255, 255))
+  );
+  background-image: -moz-linear-gradient(
+    center bottom,
+    rgb(255, 255, 255) 33%,
+    rgb(0, 255, 255) 67%
+  );
+}
+
 .imgstyle {
   height: 50%;
   width: 50%;
